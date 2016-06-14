@@ -1,0 +1,27 @@
+.brown{
+	background-color: #949ba3;
+	padding-top: 24px;
+	font-family: 'times new roman';
+	color: white;
+	text-align: center;
+}
+.brown p:first-child{
+	font-size: 48px;
+	padding-bottom: 15px;
+}
+.brown p:last-child{
+	font-size: 30px;
+	padding-bottom: 35px;
+}
+@media screen and (min-width: 800px){
+
+	.brown p:last-child{
+		padding-bottom: 20px;
+	}
+}
+@media screen and (min-width: 1000px){
+
+	.brown p:last-child{
+		padding-bottom: 90px;
+	}
+}

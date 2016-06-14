@@ -3,15 +3,83 @@
 }
 .logo{
 	text-align: center;
+	margin-top: 14px;
+	margin-bottom: 20px;
 }
-/*.container{
-	max-width: 1000px;
-	margin: 0 auto;
-
-}*/
-
+.call{
+	float: none;
+	height: 100%;
+	background: url(../img/call.png) no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+	text-align: center;
+	font-family: 'tahoma';
+	margin: 0 auto 15px;
+	width: 154px;
+}
+.call span:first-child{
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;
+	line-height: 20px;
+}
+.call span:last-child{
+	font-size: 18px;
+	color: #f3af00;
+	}
+.order{
+	background-image: url(../img/buttom_yellow2.png);
+	background-repeat: repeat-x;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	border: none;
+	margin-bottom: 22px;
+}
+.order span{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-family: 'tahoma';
+	text-shadow: 1px 1px 1px black;
+}
+.center{
+	text-align: center;
+}
 @media screen and (min-width: 800px){
 	.logo{
 		text-align: left;
+		margin-top: 44px;
+		padding-left: 10px;
+		box-sizing: border-box;
 	}
+	.order{
+		width: 400px;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.call{
+		float: right;
+		margin-top: 40px;
+		padding-right: 8px;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.logo{
+		margin-top: 30px;
+		padding-left: 0;
+	}
+	.order{
+		width: 250px;
+		height: 37px;
+		margin-top: 29px;
+		margin-bottom: 30px;
+	}
+	.call{
+		margin-top: 29px;
+		padding-right: 0;
+	}
+
 }
